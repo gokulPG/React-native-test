@@ -10,3 +10,7 @@ export const colors = {
   green: '#2ecc71',
   red: '#c0392b'
 };
+
+
+export const SET_ASTROIDS = 'SET_ASTROIDS'
+export const SET_LOADING = 'SET_LOADING' 
