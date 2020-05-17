@@ -13,7 +13,7 @@ type Props = {
 
 const AstroidDetails = ({ astroids, loading }: Props) => {
   return (
-    <View style={styles.container}>
+    <View style={styles.container} testID="astroid-view-wrapper">
       <AstroidCard>
         <Text style={styles.header}>ASTROID DETAILS</Text>
 

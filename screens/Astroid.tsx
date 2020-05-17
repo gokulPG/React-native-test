@@ -17,7 +17,7 @@ const Astroid = ({ navigation, getAstroid, getRandomAstroid }: Props) => {
   const [astroid, setAstroid] = useState("");
 
   return (
-    <View style={styles.container}>
+    <View style={styles.container} testID="astroid-search-wrapper">
       <AstroidCard>
         <TextInput
           placeholder="Enter Asteroid ID"
